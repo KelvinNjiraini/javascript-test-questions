@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+}
+
+.outer-centered {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-centered .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.outer-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    text-align: left;
+}
+
+.outer-right {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.outer-right .inner {
+    display: flex;
+    align-items: flex-end;
+    just-content: flex-end;
+    text-align: right;
+}
+
+.outer-left .inner {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    text-align: left;
+}
